@@ -665,6 +665,11 @@ section {
   padding-top: 80px;
 }
 
+.counts .card{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .counts .count-box {
   padding: 30px 30px 25px 30px;
   width: 100%;
