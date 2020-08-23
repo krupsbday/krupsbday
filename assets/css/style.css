@@ -670,12 +670,13 @@ section {
   margin-right: 10px;
   color: #e03a3c;
 }
-
-.counts .card-body{
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+@media (min-width: 768px){
+  .counts .card-body{
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 }
 
 .counts .count-box {
@@ -700,6 +701,7 @@ section {
   border: 2px solid #fff;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
 }
+
 
 .counts .count-box span {
   font-size: 36px;
