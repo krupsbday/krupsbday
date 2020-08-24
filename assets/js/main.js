@@ -4,8 +4,21 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+document.onload = function(){
+  document.getElementById('card').click();
+  console.error( document.getElementById('card'))
+};
+
 !(function($) {
   "use strict";
+
+  document.onload = function(){
+    document.getElementById('card').click();
+    console.error( document.getElementById('card'))
+  };
+
+  
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
   var scrolltoOffset = $('#header').outerHeight() - 1;
@@ -201,12 +214,17 @@
     });
 
     $('#portfolio-flters li').on('click', function() {
+      
       $("#portfolio-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
 
       portfolioIsotope.isotope({
         filter: $(this).data('filter')
       });
+      let tags = document.getElementsByClassName("portfolio-item");
+      for(let i = 0; i< tags.length; i++){
+        tags[i].style.display="initial";
+      }
       aos_init();
     });
 
