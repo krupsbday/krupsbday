@@ -862,6 +862,7 @@ section {
   text-align: center;
 }
 
+
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
@@ -876,9 +877,17 @@ section {
   border-radius: 3px;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #fff;
+ .portfolio #portfolio-flters li.filter-active {
+  /* color: #fff; */
   background: #e03a3c;
+}
+ .portfolio #portfolio-flters li.filter-active a {
+  color: #fff;
+  /* background: #e03a3c; */
+}
+
+.portfolio #portfolio-flters li a:hover{
+  color:#800708;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -970,6 +979,10 @@ section {
   opacity: 1;
 }
 
+.portfolio .portfolio-container{
+  height: 100%;
+} 
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -986,6 +999,37 @@ section {
   position: relative;
   background: #fff;
   border-radius: 15px;
+}
+
+.testimonials .nav-tabs{
+  border-bottom: none;
+}
+
+.testimonials li.filter-active{
+  /* color: #fff; */
+  background: #e03a3c;
+}
+.testimonials li.filter-active a{
+  color: #fff;
+  /* background: #e03a3c; */
+}
+
+.testimonials li a:hover{
+  color:#800708;
+}
+
+.testimonials li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #444444;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
