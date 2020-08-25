@@ -1110,6 +1110,7 @@ section {
   background-color: #e03a3c !important;
 }
 
+
 @media (max-width: 767px) {
   .testimonials .testimonial-wrap {
     padding-left: 0;
@@ -1123,16 +1124,17 @@ section {
     left: auto;
   }
 
-  .testimonial .car-container{
+  .testimonials .car-container{
     width: 75%;
   }
 }
-
 @media (max-width: 500px) {
-  .testimonial .car-container{
+  .testimonials .car-container{
     width: 90%;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Pricing
