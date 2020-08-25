@@ -1110,6 +1110,15 @@ section {
   background-color: #e03a3c !important;
 }
 
+.video{
+  display:block;
+  width:100%;
+  height: 100%;
+}
+
+.about .content{
+  margin: 0 auto;
+}
 
 @media (max-width: 767px) {
   .testimonials .testimonial-wrap {
