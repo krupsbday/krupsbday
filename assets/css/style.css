@@ -680,13 +680,9 @@ section {
   margin-right: 10px;
   color: #e03a3c;
 }
-@media (min-width: 768px){
-  .counts .card-body{
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
+
+.counts img{
+  height: 100%;
 }
 
 .counts .count-box {
